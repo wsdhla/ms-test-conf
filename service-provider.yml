@@ -35,9 +35,9 @@ info:
     name: ${spring.application.name}
   company:
     name: www.etoak.com
-  build:
-    artifactId: @project.artifactId@
-    version: @project.version@
+#  build:
+#    artifactId: @project.artifactId@
+#    version: @project.version@
 #*********通用配置 end*********
 
 
