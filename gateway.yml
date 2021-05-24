@@ -16,8 +16,6 @@ management:
     web:
       exposure:
         include: "info,health,refresh"
-      cors:
-        allowed-methods: "POST"
 
 info:
   app:
