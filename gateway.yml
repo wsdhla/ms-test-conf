@@ -9,6 +9,14 @@ eureka:
 zuul:
   prefix: /zuul
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-methods: "*"
+
 info:
   app:
     name: ${spring.application.name}
