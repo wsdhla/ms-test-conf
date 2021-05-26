@@ -27,7 +27,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: info,health,refresh,bus-refresh
+        include: info,health,refresh
       cors:
         allowed-methods: GET,POST
 
@@ -43,7 +43,7 @@ info:
 
 myapp:
   test:
-    msg: 测试修改后1
+    msg: 测试修改后
 #*********通用配置 end*********
 
 

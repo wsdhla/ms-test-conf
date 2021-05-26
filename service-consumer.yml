@@ -11,7 +11,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: info,health,refresh,bus-refresh
+        include: info,health,busrefresh
       cors:
         allowed-methods: GET,POST
 
