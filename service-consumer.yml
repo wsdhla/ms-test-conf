@@ -23,3 +23,7 @@ info:
   build:
 #    artifactId: @project.artifactId@
 #    version: @project.version@
+
+myapp:
+  test:
+    msg: 测试修改前
