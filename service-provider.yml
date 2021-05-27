@@ -2,9 +2,9 @@
 # HikariCP
 spring:
   datasource:
-    username: LCCS019999
-    password: aaaaaa
-    url: jdbc:oracle:thin:@10.110.85.135:1521/orcl
+    username: 用户名
+    password: 密码
+    url: jdbc:oracle:thin:@IP:1521/orcl
     driverClassName: oracle.jdbc.OracleDriver
 
 # MyBatis
