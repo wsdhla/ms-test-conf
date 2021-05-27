@@ -44,7 +44,7 @@ info:
 myapp:
   test:
     msg: 测试修改后1
-    sleepTime: 10
+    sleepTime: 8000
 #*********通用配置 end*********
 
 
